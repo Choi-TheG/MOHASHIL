@@ -1,0 +1,16 @@
+.Button{
+	width: 98%;
+	font-size: 22px;
+	padding: 10px 40px;
+	display: block;
+	margin: 20px 10px 10px;
+	border: 0px;
+	border-radius: 6px;
+	transition: top .01s linear;
+	position: relative;
+	color: #fff;
+}
+
+.DrawButton{
+	background-color: darkred;
+}
