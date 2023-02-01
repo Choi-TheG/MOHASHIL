@@ -19,6 +19,7 @@ function App() {
             height: "30px",
           }}
         >
+          추천 유형
           <input type="radio" name="category" />
           카페
           <input type="radio" name="category" />
@@ -29,6 +30,16 @@ function App() {
           주점
           <input type="radio" name="category" />
           배달
+        </div>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            width: "100%",
+            height: "30px",
+          }}
+        >
+          거리 0m - 10km
         </div>
         <div>
           <button
@@ -51,8 +62,8 @@ function App() {
             ⭐
           </button>
         </div>
-        <h1>img</h1>
-        <DrawButton>랜덤추천</DrawButton>
+        <h1>img 추천 유형에 맞춰 배경색 다르게하자.</h1>
+        <DrawButton>추천받기</DrawButton>
         <button style={{ float: "center" }} className="todayBtn">
           <input type="checkbox" value="오늘은 보지 않기" />
           오늘은 보지 않기
